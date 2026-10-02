@@ -146,6 +146,8 @@
     .meta-chip { padding: 1rem .7rem; border-radius: .45rem; color: var(--ink); background: var(--lime); text-align: center; font-size: clamp(.85rem, 1.4vw, 1.15rem); font-weight: 760; }
     .meta-chip:nth-child(even) { transform: translateY(1rem); color: var(--white); background: var(--green-dark); }
     .meta-chip:nth-child(3n) { background: var(--white); }
+    .milestones { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1.1rem 0; }
+    .milestones span { padding: .6rem .85rem; border: 1px solid rgba(255,255,255,.35); border-radius: 99px; color: var(--lime); font-size: .82rem; font-weight: 700; }
     .closing-note { display: inline-flex; align-items: center; gap: .7rem; padding: .85rem 1.1rem; border: 1px solid rgba(255,255,255,.35); border-radius: 99px; color: var(--white); font-size: .9rem; font-weight: 700; }
 
     .controls { position: fixed; z-index: 10; right: clamp(1rem, 3vw, 2.5rem); bottom: clamp(1rem, 2.8vh, 2rem); display: flex; align-items: center; gap: .55rem; padding: .45rem; border: 1px solid rgba(20,39,32,.12); border-radius: 99px; background: rgba(255,255,255,.9); box-shadow: 0 .4rem 1.5rem rgba(20,39,32,.1); backdrop-filter: blur(12px); }
@@ -404,9 +406,10 @@
       </header>
       <div class="content split">
         <div class="reveal">
-          <p class="eyebrow">Un’identità per ogni contenuto</p>
+          <p class="eyebrow">Si condivide di più, non sfugge nulla.</p>
           <p class="end-statement">Più si condivide, <span>meno si perde.</span></p>
           <p class="lead" style="margin-top:1.5rem">La conoscenza diventa un patrimonio condiviso quando ogni contenuto sa dove andare e come restare affidabile.</p>
+          <div class="milestones"><span>Microsoft Purview già nelle vostre licenze</span><span>Sensitivity label in produzione prima del 2027</span></div>
           <div class="closing-note">Knowledge by design <span aria-hidden="true">✳</span> Dal primo giorno</div>
         </div>
         <div class="meta-cloud reveal" aria-label="Metadati di ogni contenuto">
